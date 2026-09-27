@@ -118,6 +118,7 @@ calculateAdvance(40, 8, showVhagResult);       // // Output: Vhagfol holo: 5
 // ========================================================================================
 // 9. Anonymous Function - Je function er kono nam thake na (Array map, forEach e use hoy)
 // ========================================================================================
+
 let numbersList = [ 1, 2, 3 ];                  // // [Fixed] Square bracket diye array thik kora holo
 numbersList.map(function (num) {              // // map er bhetorer function tir kono nam nai
     console.log(num * 2);                     // // Output: 2, 4, 6
