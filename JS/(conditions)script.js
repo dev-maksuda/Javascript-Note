@@ -43,7 +43,7 @@ if (temperature > 30) {
 
 
 // ========================================================================================
-// 🆕 4. Nested If-Else - Shortho er bhetor arekti shortho check korar jonno [W3Schools Added]
+// 4. Nested If-Else - Shortho er bhetor arekti shortho check korar jonno [W3Schools Added]
 // ========================================================================================
 let hasTicket = true;
 let isVipMember = false;
@@ -61,7 +61,7 @@ if (hasTicket === true) {
 
 
 // ========================================================================================
-// 🆕 5. Switch Case - Onekgulo else if thakle code sundor o fast korar jonno [W3Schools Added]
+// 5. Switch Case - Onekgulo else if thakle code sundor o fast korar jonno [W3Schools Added]
 // ========================================================================================
 let day = "Monday";
 
