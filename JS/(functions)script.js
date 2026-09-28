@@ -72,14 +72,14 @@ hello();                                      // // Output: hello
 // ========================================================================================
 // 6. Return Statement - Execution sheshe folaflol variable e dhore rakhar jonno
 // ========================================================================================
-let biyogWithReturn = (a, b) => {
-    return (a - b);                           // // return korle result-ti baire use kora jay
-};
-let x = biyogWithReturn(10, 5);
-console.log(x);                               // // Output: 5
+// let biyogWithReturn = (a, b) => {
+//     return (a - b);                           // // return korle result-ti baire use kora jay
+// };
+// let x = biyogWithReturn(10, 5);
+// console.log(x);                               // // Output: 5
 
-let y = biyogWithReturn(100, 5);
-console.log(y);                               // // Output: 95
+// let y = biyogWithReturn(100, 5);
+// console.log(y);                               // // Output: 95
 
 
 // ========================================================================================

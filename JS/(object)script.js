@@ -22,20 +22,20 @@ console.log(students);                        // //email সহ full object dekh
 // ------------------------------------ 2. This Keyword & Methods ------------------------------------
 
 // 4. Object Method - Object er bhetore function (Method) tiri korar jonno
-const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 50,
-    fullName: function() {
-        // 5. This Keyword - Object er bhitore thaka property access nite chaile 'this' likhte hoy
-        return this.firstName + " " + this.lastName; 
-    }
-};
-console.log(person.fullName());               // //method run kore full name dekhar jonno
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     fullName: function() {
+//         // 5. This Keyword - Object er bhitore thaka property access nite chaile 'this' likhte hoy
+//         return this.firstName + " " + this.lastName; 
+//     }
+// };
+// console.log(person.fullName());               // //method run kore full name dekhar jonno
 
-// 6. Outside Access - Object er baire theke data niye kaj korte chaile object_name.property_name likhte hoy
-const a = person.firstName + " " + person.lastName; 
-console.log(a);                               // //object er baire access nite chaile এতি ব্যবহার হয়
+// // 6. Outside Access - Object er baire theke data niye kaj korte chaile object_name.property_name likhte hoy
+// const a = person.firstName + " " + person.lastName; 
+// console.log(a);                               // //object er baire access nite chaile এতি ব্যবহার হয়
 
 
 // -------------------------------- 3. Deleting & Checking Properties --------------------------------
@@ -75,11 +75,11 @@ console.log(studentNested.hobby.hobby1);      // //hobby1,2,3... access korte ch
 
 // ---------------------------- 5. Extra Advanced Object Methods  ----------------------------
 
-// 12. Object.keys - Object er bhetor thaka shobgulo Key/Name list array e ber korar jonno
-console.log(Object.keys(studentNested));      // //Result: ["name", "roll", "isPresent", "adress", "hobby"]
+// // 12. Object.keys - Object er bhetor thaka shobgulo Key/Name list array e ber korar jonno
+// console.log(Object.keys(studentNested));      // //Result: ["name", "roll", "isPresent", "adress", "hobby"]
 
-// 13. Object.values - Object er bhetor thaka shobgulo Value/Data list array e ber korar jonno
-console.log(Object.values(studentNested));    // //Result: ["Imran", 11, true, "Uttara", {...}]
+// // 13. Object.values - Object er bhetor thaka shobgulo Value/Data list array e ber korar jonno
+// console.log(Object.values(studentNested));    // //Result: ["Imran", 11, true, "Uttara", {...}]
 
-// 14. Object.entries - Key ebong Value ke joray joray (2D Array) alada korar jonno
-console.log(Object.entries(studentNested));   // //Full object ke matrix/array format e neyar jonno
+// // 14. Object.entries - Key ebong Value ke joray joray (2D Array) alada korar jonno
+// console.log(Object.entries(studentNested));   // //Full object ke matrix/array format e neyar jonno
