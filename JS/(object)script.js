@@ -51,7 +51,7 @@ console.log(result);                          // //property thakle Result dekhab
 
 // -------------------------------------- 4. Nested Object --------------------------------------
 
-// 9. Nested Object Declaration - Object er bhetore arekti new object tiri korar jonno
+// 9. Nested Object Declaration - Object er bhetore arekti new object tuiri korar jonno
 let studentNested = {
     name: "Imran",
     roll: 11,
