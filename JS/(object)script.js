@@ -21,7 +21,7 @@ console.log(students);                        // //email soho full object dekhab
 
 // ------------------------------------ 2. This Keyword & Methods ------------------------------------
 
-// 4. Object Method - Object er bhetore function (Method) tiri korar jonno
+// 4. Object Method - Object er bhetore function (Method) tuiri korar jonno
 // const person = {
 //     firstName: "John",
 //     lastName: "Doe",
