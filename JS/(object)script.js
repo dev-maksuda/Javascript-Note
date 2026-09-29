@@ -14,9 +14,9 @@ console.log(students);                        // //students object full dekhar j
 // 2. Access Property - Dot (.) use kore object er bhetor theke nirdishto data ber kora
 console.log(students.name);                   // //shudhu name dekhabe: "Imran"
 
-// 3. New Property Add - Object er baire theke hothat new data যোগ ba add korar jonno
+// 3. New Property Add - Object er baire theke hothat new data jog ba add korar jonno
 students.email = "imran@gmail.com";           // //new object add
-console.log(students);                        // //email সহ full object dekhabe
+console.log(students);                        // //email soho full object dekhabe
 
 
 // ------------------------------------ 2. This Keyword & Methods ------------------------------------
@@ -35,7 +35,7 @@ console.log(students);                        // //email সহ full object dekh
 
 // // 6. Outside Access - Object er baire theke data niye kaj korte chaile object_name.property_name likhte hoy
 // const a = person.firstName + " " + person.lastName; 
-// console.log(a);                               // //object er baire access nite chaile এতি ব্যবহার হয়
+// console.log(a);                               // //object er baire access nite chaile 
 
 
 // -------------------------------- 3. Deleting & Checking Properties --------------------------------
