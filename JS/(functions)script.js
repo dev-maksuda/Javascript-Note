@@ -1,7 +1,53 @@
 // ===================================== JavaScript Functions Master File =====================================
+// ========================================================================================
+// Note: Function Declaration vs Function Expression
+// =========================================== 1. Function Declaration =============================================
+
+/*
+A Function Declaration is a standalone statement that defines a named function. 
+It is hoisted, meaning it can be called before it is defined in the code.
+
+Universal Syntax:
+function functionName(parameter1, parameter2) {
+    return value;                                        // Code block to be executed
+}
+*/
+// Code Example:
+function greetUser(name) {
+    return `Hello, ${name}!`;
+}
+
+console.log(greetUser("Rakib")); // Output: Hello, Rakib!
+
+
+// ============================================ 2. Function Expression ============================================
+
+/*
+A Function Expression defines a function inside an expression (usually assigned to a variable). 
+It is not hoisted, so it must be defined before it can be called.
+
+Universal Syntax (Traditional Anonymous):
+const variableName = function(parameter1, parameter2) {
+    // Code block to be executed
+    return value;
+};
+
+Universal Syntax (Modern Arrow Function):
+const variableName = (parameter1, parameter2) => {
+    // Code block to be executed
+    return value;
+};
+*/
+
+// Code Example:
+const multiply = (x, y) => {
+    return x * y;
+};
+
+console.log(multiply(5, 4)); // Output: 20
 
 // ========================================================================================
-// 1. Function Declaration (Basic) - Shadharon function tiri kora ebong call kora
+// 1. Function Declaration (Basic) - Shadharon function toiri kora ebong call kora
 // ========================================================================================
 function sayHello() {
     console.log("Hello World");
