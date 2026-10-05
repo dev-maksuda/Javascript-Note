@@ -67,4 +67,24 @@ btn.addEventListener("mouseover", () => {                           //mouse nile
         btn.innerHTML = "Show";
     }
                                     
-});                                                       
+});   
+
+// let btn = document.querySelector(".btn");                    // button ke select korlo
+// let inputForm = document.querySelector(".inputForm");        // input field ke select korlo
+
+// // Button er upore mouse unle nicher kaj ta hobe
+// btn.addEventListener("mouseover", () => {
+//     console.log(inputForm.type);                             // console-e input er type dekhabe
+    
+//     // type jodi password thake, tobe eta kaj korbe
+//     if (inputForm.type === "password") {
+//         inputForm.type = "text";                             // password unhide korbe (text banaye dibe)
+//         btn.innerHTML = "hide";                                  // button er lekha text badle 'hide' korbe
+//     }
+// });
+
+// // Button theke mouse shoraye nile nicher kaj ta hobe
+// btn.addEventListener("mouseleave", () => {
+//     inputForm.type = "password";                             // input abar hide korbe (password banaye dibe)
+//     btn.innerHTML = "show";                                  // button er lekha text abar 'show' korbe
+// });
